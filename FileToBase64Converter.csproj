@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>FileToBase64Converter</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Alex Ogubuike</Authors>
+    <Description>A nuget package used for converting files of any format to base64 strings</Description>
+    <PackageTags>file, convert, base64</PackageTags>
+    <PackageProjectUrl>https://github.com/Sixxxxx/FileToBase64Converter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Sixxxxx/FileToBase64Converter</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageIcon>FileToBase64Converter\images\icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <None Include="..\FileToBase64Converter\images\icon.png" Pack="true" Visible="false" PackagePath="FileToBase64Converter\images\icon.png" Link="FileToBase64Converter\images\icon.png" />
+  </ItemGroup>
+
+    
+
+
+
+  <ItemGroup>
+    <None Update="MessageEncoder\images\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+    
+
+
+
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+</Project>
